@@ -31,7 +31,7 @@ display: flex;
 }
 div ul li a{
   line-height:80px;
-  color:black;
+  color:whitesmoke;
   padding:12px 30px;
   text-decoration:none;
 text-transform:uppercase;
@@ -46,11 +46,36 @@ nav ul li a.active{
     color:#fff;
     border-radius:6px;
 }
-section{
+.image{
     width:100%;
-    height:100vh;
-   background: url('https://lh3.googleusercontent.com/proxy/Ez101wyDCReFDY9f3dtkzIHbDDwuqduDJVHetcUQnwNDiuUAc6ayeyKZSqVtnID3uhqHdBojA4yrPJepxDLVozhYCZmONzAwlRJwtAgVLgg');
+    height:18vh;
+   background-image: url('../simplewebsite/images/galaxy.jpg');
     background-size:cover;
     background-position: center;
+}
+.content{
+    width:100%;
+    height:50vh;
+   background-color:orange;
+   margin: 0px;
+   padding:3px;
+    background-size:cover;
+    background-position: center;
+}
+div .wordings-middle{
+    text-align: c;
+}
+.banner-img{
+    position:fixed;
+    width:97%;
+    height:59vh;
+    background-image: url('../simplewebsite/images/bus.jpg');
+    background-size: cover;
+    filter: blur(5px);
+}
+.banner-text{
+    position: absolute;
+    text-align:centre;
+    padding-top: 15px;
 }
 
