@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOOD APP</title>
+    <link rel="stylesheet" href="main.css"/>
+    <script src="https://kit.fontawesome.com/406aab7b5f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <div class="navbar-center">
+            <div class="nav-text">
+                FOOD ORDERING APP
+            </div>
+            <span class="nav-icon">
+                <i class="fas fa-heart"></i>
+            </span>
+        </div>
+    </nav>
+<!--End of navbar-->
+<!--Search for food items-->
+<Section class="search">
+    <div class="Search-box"></div>
+    <input id="box" type="text" placeholder="Search restuarts..."></input> 
+</Section>
+<!--End Search for fodd items-->
+<!--sort by select box-->
+<div class="container">
+    <div class="select-container">
+        <select id="sort">
+            <option value="" disabled selected hidden>Sort By :-</option>
+            <option value="Name">Name</option>
+            <option value="ETA">ETA</option>
+            <option value="Rating">Rating</option>
+        </select>
+        <select id="filter">
+            <option value="" disabled selected hidden>Filter By :-</option>
+            <option value="Indian">Indian</option>
+            <option value="Italian">Italian</option>
+            <option value="Mexican">Mexican</option>
+            <option value="Chinese">Chinese</option>
+            <option value="French">French</option>
+            <option value="American">American</option>
+            <option value="Sea Food">Sea Food</option>
+        </select>
+    </div>
+</div>
+<div class="products-center">
+    <!--single product-->
+    <article class="product">
+        <div class="img-container">
+            <img src="../FOODAPP/Images/restaurant-1.jpg" alt=""  class="product-img">
+            <button class="bag-btn" data-id="1">
+                <i class="fas fa-shopping-cart"></i>
+                Add to favourites
+            </button>
+        </div>
+        <h3>Green Curry</h3>
+        <h4>Location-Mexico</h4>
+        <h4>Ratings-3.5</h4>
+        <h4>ETA-25</h4>
+    </article>
+    <!--end of single product-->
+</div>
+</body>
+</html>
